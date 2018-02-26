@@ -1,0 +1,29 @@
+.flat-image {
+  height:50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+
+.flat-presentation {
+  text-align:left;
+  justify-content:flex-start;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.content {
+  display:flex;
+  margin: 15px;
+}
+
+.form {
+
+}
