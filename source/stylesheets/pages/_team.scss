@@ -1,0 +1,16 @@
+#team {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
+  background-size: counter-reset;
+}
+
+.content {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+

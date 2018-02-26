@@ -1,0 +1,18 @@
+
+<div id ="team">
+  <div class="content">
+    <h1>This is our amazing team</h1>
+    <% names=["Jonathan Joubert", "Astrid de Boissieu"] %>
+    <% i=0 %>
+    <ul class="list-inline text-center">
+      <% ["jjoub", "astriddeboiss"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle size" %>
+          <p><%= names[i] %><p>
+            <p><i class="fa fa-github"></i><%= gh_username %></p>
+        </li>
+        <% i+=1 %>
+      <% end %>
+    </ul>
+  </div>
+</div>
